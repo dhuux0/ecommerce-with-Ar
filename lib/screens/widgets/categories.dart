@@ -2,6 +2,7 @@ import 'package:dukaaan/constants/const.dart';
 import 'package:dukaaan/controlls/itembag_controller.dart';
 import 'package:dukaaan/screens/views/cart_page.dart';
 import 'package:dukaaan/screens/widgets/ArProducts.dart';
+import 'package:dukaaan/screens/widgets/ar_view.dart';
 import 'package:dukaaan/screens/widgets/prifile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -70,6 +71,8 @@ class CategoriesPage extends StatelessWidget {
           CategoryItem(
             categoryName: 'Clothing',
             onTap: () {
+              TryOnVirtuallyWidget;
+              // ARViewPage;
               // Navigate to the products page for Clothing category
               // Replace the push navigation with your desired navigation logic
             },

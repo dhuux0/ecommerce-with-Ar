@@ -1,6 +1,7 @@
 import 'package:dukaaan/constants/const.dart';
 import 'package:dukaaan/controlls/d_product_contriller.dart';
 import 'package:dukaaan/controlls/product_controller.dart';
+import 'package:dukaaan/screens/views/detail_page.dart';
 import 'package:dukaaan/screens/widgets/ArProducts.dart';
 // import 'package:dukaaan/screens/widgets/ar_view.dart';
 import 'package:dukaaan/screens/widgets/categories.dart';
@@ -10,6 +11,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gap/gap.dart';
 
+import '../widgets/ar_view.dart';
 import 'home_page.dart';
 
 final currentIndexProvider = StateProvider<int>((ref) {
@@ -140,6 +142,24 @@ class DDetailsPage extends ConsumerWidget {
                     child: const Text('Add item to bag'),
                   ),
                   const Gap(12),
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: kPrimaryColor,
+                      minimumSize: const Size(double.infinity, 50),
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => TryOnVirtuallyWidget(
+                            modelPath: product[getIndex]
+                                .modelpath, // Pass the correct modelPath
+                          ),
+                        ),
+                      );
+                    },
+                    child: const Text('Try on virtually'),
+                  ),
                   // ElevatedButton(
                   //   style: ElevatedButton.styleFrom(
                   //     backgroundColor: kPrimaryColor,
@@ -223,30 +243,6 @@ class DDetailsPage extends ConsumerWidget {
             label: 'AR_PRODUCTS',
           ),
         ],
-      ),
-    );
-  }
-}
-
-//class ARViewPage {
-//}//import 'package:flutter/material.dart';
-
-class ARViewPage extends StatelessWidget {
-  final String modelPath;
-
-  const ARViewPage({Key? key, required this.modelPath}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AR View Page'),
-      ),
-      body: Center(
-        child: Text(
-          'AR View for model at path: $modelPath',
-          style: TextStyle(fontSize: 20),
-        ),
       ),
     );
   }

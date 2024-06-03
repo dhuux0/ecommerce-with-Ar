@@ -139,22 +139,22 @@ class DetailsPage extends ConsumerWidget {
                     child: const Text('Add item to bag'),
                   ),
                   const Gap(12),
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: kPrimaryColor,
-                      minimumSize: const Size(double.infinity, 50),
-                    ),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => ARViewPage(
-                              modelPath: product[getIndex].modelpath),
-                        ),
-                      );
-                    },
-                    child: const Text('Try on virtually'),
-                  ),
+                  // ElevatedButton(
+                  //   style: ElevatedButton.styleFrom(
+                  //     backgroundColor: kPrimaryColor,
+                  //     minimumSize: const Size(double.infinity, 50),
+                  //   ),
+                  //   onPressed: () {
+                  //     Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //         builder: (context) => ARViewPage(
+                  //             modelPath: product[getIndex].modelpath),
+                  //       ),
+                  //     );
+                  //   },
+                  //   child: const Text('Try on virtually'),
+                  // ),
                 ],
               ),
             ),
@@ -229,24 +229,3 @@ class DetailsPage extends ConsumerWidget {
 
 //class ARViewPage {
 //}//import 'package:flutter/material.dart';
-
-class ARViewPage extends StatelessWidget {
-  final String modelPath;
-
-  const ARViewPage({Key? key, required this.modelPath}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AR View Page'),
-      ),
-      body: Center(
-        child: Text(
-          'AR View for model at path: $modelPath',
-          style: TextStyle(fontSize: 20),
-        ),
-      ),
-    );
-  }
-}

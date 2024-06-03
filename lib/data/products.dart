@@ -12,7 +12,7 @@ List<ProductModel> productItems = [
     shortDescription: 'sports shoes',
     longDescription:
         ' are a versatile and stylish choice for athletes and active individuals. These shoes are designed with performance and comfort in mind, making them suitable for a wide range of activities such as running, jogging, walking, and gym workouts. ',
-    modelpath: 'assets/3D_products/jacket.gltf',
+    //modelpath: 'assets/3D_products/jacket.gltf',
   ),
 
   // Product List 2
@@ -23,7 +23,7 @@ List<ProductModel> productItems = [
     price: 3415,
     rating: 5.0,
     review: 13625,
-    modelpath: 'assets/3D_products/chair.gltf',
+    //modelpath: 'assets/3D_products/chair.gltf',
     shortDescription: 'Apple M2 Pro chip with 10‑core',
     longDescription:
         'SUPERCHARGED BY M2 PRO OR M2 MAX — Take on demanding projects with the M2 Pro or M2 Max chip. M2 Pro has up to 12 CPU cores, up to 19 GPU cores and up to 32GB unified memory. M2 Max has 12 CPU cores, up to 38 GPU cores and up to 96GB unified memory. All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps. The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.',
@@ -38,7 +38,7 @@ List<ProductModel> productItems = [
       rating: 4.8,
       review: 13625,
       shortDescription: 'men jeans',
-      modelpath: 'assets/3D_products/jacket.gltf',
+      //  modelpath: 'assets/3D_products/jacket.gltf',
       longDescription:
           "Diesel jeans are renowned for their high-quality craftsmanship, stylish designs, and durability. Here's a detailed description of Diesel jeans:"),
 
@@ -50,7 +50,7 @@ List<ProductModel> productItems = [
       price: 255,
       rating: 4,
       review: 125,
-      modelpath: 'assets/3D_products/jacket.gltf',
+      // modelpath: 'assets/3D_products/jacket.gltf',
       shortDescription: 'apple watch',
       longDescription:
           "The Apple Watch Series 7 is a smartwatch developed by Apple Inc. It's the latest model in the Apple Watch lineup, succeeding the Series 6. Here's an overview of its features and specifications:"),
@@ -63,7 +63,7 @@ List<ProductModel> productItems = [
       price: 750,
       rating: 2,
       review: 102,
-      modelpath: 'assets/3D_products/jacket.gltf',
+      // modelpath: 'assets/3D_products/jacket.gltf',
       shortDescription: 'T-shirt ',
       longDescription:
           "Fit: T-shirts are available in various fits, ranging from slim fit to relaxed fit. Slim-fit T-shirts hug the body more closely, while relaxed-fit T-shirts offer a looser, more comfortable silhouette. Some T-shirts may also feature tailored or fitted cuts for a more polis hed look."),
@@ -76,7 +76,7 @@ List<ProductModel> productItems = [
       price: 2500,
       rating: 5,
       review: 450,
-      modelpath: 'assets/3D_products/jacket.gltf',
+      //  modelpath: 'assets/3D_products/jacket.gltf',
       shortDescription: 'rolex,',
       longDescription:
           "The Rolex Perpetual Oyster is a distinguished timepiece renowned for its exquisite craftsmanship, precision engineering, and timeless elegance. Here's a detailed description of the Rolex Perpetual Oyster:"),
@@ -88,7 +88,7 @@ List<ProductModel> productItems = [
     title: 'Apple iPad Pro',
     price: 1200,
     rating: 5,
-    modelpath: 'assets/3D_products/jacket.gltf',
+    //  modelpath: 'assets/3D_products/jacket.gltf',
     review: 450,
     shortDescription: '12.9 inch 6th Generation',
     longDescription:
@@ -102,7 +102,7 @@ List<ProductModel> productItems = [
       title: 'Nike T-shirt',
       price: 1600,
       rating: 3,
-      modelpath: 'assets/3D_products/jacket.gltf',
+      // modelpath: 'assets/3D_products/jacket.gltf',
       review: 258,
       shortDescription: 'sports T-shirt',
       longDescription:
@@ -115,7 +115,7 @@ List<ProductModel> productItems = [
     title: 'Apple Watch Series 8',
     price: 480,
     rating: 2,
-    modelpath: 'assets/3D_products/jacket.gltf',
+    //  modelpath: 'assets/3D_products/jacket.gltf',
     review: 258,
     shortDescription: 'Cellular 45mm Smart Watch ',
     longDescription:
@@ -129,7 +129,7 @@ List<ProductModel> productItems = [
     title: 'Logitech MX Master 3S',
     price: 87,
     rating: 4,
-    modelpath: 'assets/3D_products/jacket.gltf',
+    //  modelpath: 'assets/3D_products/jacket.gltf',
     review: 2340,
     shortDescription: 'Wireless Performance Mouse',
     longDescription:
@@ -141,7 +141,7 @@ List<ProductModel> productItems = [
       title: 'double bed ',
       price: 1000,
       rating: 5,
-      modelpath: 'assets/3D_products/jacket.gltf',
+      //   modelpath: 'assets/3D_products/jacket.gltf',
       review: 10000,
       shortDescription: 'kindom bed',
       longDescription:
@@ -152,7 +152,7 @@ List<ProductModel> productItems = [
       imgUrl: 'assets/products/air.jpeg',
       title: 'sneakers',
       price: 200,
-      modelpath: 'assets/3D_products/jacket.gltf',
+      //   modelpath: 'assets/3D_products/jacket.gltf',
       shortDescription: 'sports and fashion sneakers',
       longDescription:
           'these  sneakers are for fashion and sports they are so good soft and deliaple sneakers',

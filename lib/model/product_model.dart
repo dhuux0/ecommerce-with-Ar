@@ -7,7 +7,7 @@ class ProductModel {
   final String shortDescription;
   final String longDescription;
   final int review;
-  final String modelpath;
+//  final String modelpath;
   final double rating;
   bool isSelected;
   int qty;
@@ -19,7 +19,7 @@ class ProductModel {
     required this.shortDescription,
     required this.longDescription,
     required this.review,
-    required this.modelpath,
+    //required this.modelpath,
     required this.rating,
     this.isSelected = false,
     this.qty = 1,
@@ -34,7 +34,7 @@ class ProductModel {
     String? longDescription,
     int? review,
     double? rating,
-    String? modelpath,
+    //String? modelpath,
     bool? isSelected,
     int? qty,
   }) {
@@ -49,7 +49,7 @@ class ProductModel {
       rating: rating ?? this.rating,
       isSelected: isSelected ?? this.isSelected,
       qty: qty ?? this.qty,
-       modelpath: modelpath?? this.modelpath,
+      //   modelpath: modelpath?? this.modelpath,
     );
   }
 }

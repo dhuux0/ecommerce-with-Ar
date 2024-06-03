@@ -86,6 +86,7 @@ class dCardWidget extends ConsumerWidget {
                                       dProduct[productIndex1].long_description,
                                   review: dProduct[productIndex1].review,
                                   rating: dProduct[productIndex1].rating,
+                                  modelpath: dProduct[productIndex1].modelpath,
                                   //  modelpath: dProduct[productIndex1].modelpath,
                                 ) as ProductModel,
                               );

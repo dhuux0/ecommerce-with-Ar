@@ -71,17 +71,18 @@ class ProductCardWidget extends ConsumerWidget {
                         if (product[productIndex].isSelected == false) {
                           ref.read(itemBagProvider.notifier).addNewItemBag(
                                 ProductModel(
-                                    pid: product[productIndex].pid,
-                                    imgUrl: product[productIndex].imgUrl,
-                                    title: product[productIndex].title,
-                                    price: product[productIndex].price,
-                                    shortDescription:
-                                        product[productIndex].shortDescription,
-                                    longDescription:
-                                        product[productIndex].longDescription,
-                                    review: product[productIndex].review,
-                                    rating: product[productIndex].rating,
-                                    modelpath: product[productIndex].modelpath),
+                                  pid: product[productIndex].pid,
+                                  imgUrl: product[productIndex].imgUrl,
+                                  title: product[productIndex].title,
+                                  price: product[productIndex].price,
+                                  shortDescription:
+                                      product[productIndex].shortDescription,
+                                  longDescription:
+                                      product[productIndex].longDescription,
+                                  review: product[productIndex].review,
+                                  rating: product[productIndex].rating,
+                                  // modelpath: product[productIndex].modelpath
+                                ),
                               );
                         } else {
                           ref
